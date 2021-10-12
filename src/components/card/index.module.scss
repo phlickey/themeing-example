@@ -1,0 +1,16 @@
+.card {
+  background-color: var(--theme-card-background);
+  color: var(--theme-text-default);
+  border-radius: var(--theme-border-radius);
+
+  border: var(--theme-border);
+
+  display: grid;
+  gap: 15px;
+
+  grid-template-columns: 1fr;
+
+  box-shadow: var(--theme-shadow);
+
+  padding: 15px;
+}
